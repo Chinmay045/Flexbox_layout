@@ -55,11 +55,58 @@ h2 {
 }
 
 .main-content {
-    background: #b3dfd8;
+    /* background: #b3dfd8; */
     flex: 1;
 }
 
 .page .footer {
     background-color: #212121;
     color: white;
+}
+
+.positions {
+    min-height: 100vh;
+    background-image: url(../img/burguer.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top {
+    align-self: flex-end;
+}
+
+.bottom {
+    align-self: flex-end;
+}
+
+.positions div {
+    flex: 0 0 calc(33.3% -3rem);
+}
+
+.positions .offer {
+    background-color: #e0ab10;
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+
+
+}
+
+.positions .main-content {
+    color: white;
+    text-align: center;
+
+}
+
+.positions .main-content h1 {
+    color: #e0ab10;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.positions .main-content .location {
+    font-size: 1.4rem;
 }
